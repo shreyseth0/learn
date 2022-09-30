@@ -1,0 +1,15 @@
+num1=int(input(please enter your first number.")
+num2=int(input(please enter ytour second number.")
+operator=input("please enter your operator of choice: /, *, %, +,-")
+if operator=="+":
+     print(num1+num2)
+elif operator=="-":
+     print(num1-num2)
+elif  operator=="/":
+     print(num1/num2)     
+elif  operator=="*":
+     print(num1*num2)     
+elif  operator=="%":
+     print(num1%num2)     
+else: 
+     print(pllease use the above operators mentioned)
